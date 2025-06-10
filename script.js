@@ -1,14 +1,13 @@
 // 팀원별 파일 리스트 (파일 추가/삭제시 이 부분만 수정)
 const fileList = {
   "HJ": [
-    { name: "2024-01-머신러닝", path: "data/HJ/2024-01-머신러닝.md" },
-    { name: "2024-02-딥러닝", path: "data/HJ/2024-02-딥러닝.md" }
+    { name: "투영", path: "data/HJ/투영.md" },
   ],
   "Eunhee": [
-    { name: "2024-01-생물학", path: "data/Eunhee/2024-01-생물학.md" }
+//    { name: "2024-01-생물학", path: "data/Eunhee/2024-01-생물학.md" }
   ],
   "BJ": [
-    { name: "2024-01-물리학", path: "data/BJ/2024-01-물리학.md" }
+//    { name: "2024-01-물리학", path: "data/BJ/2024-01-물리학.md" }
   ]
 };
 
