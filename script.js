@@ -7,7 +7,7 @@ const fileList = {
 //    { name: "2024-01-생물학", path: "data/Eunhee/2024-01-생물학.md" }
   ],
   "BJ": [
-//    { name: "2024-01-물리학", path: "data/BJ/2024-01-물리학.md" }
+//    { name: "COM", path: "data/BJ/COM.md" }
   ]
 };
 
