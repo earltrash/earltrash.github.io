@@ -7,8 +7,8 @@ const fileList = {
 //    { name: "2024-01-생물학", path: "data/Eunhee/2024-01-생물학.md" }
   ],
   "BJ": [
-//    { name: "COM", path: "data/BJ/COM.md" }
-  ]
+    { name: "COM", path: "data/BJ/COM.md" }
+  ],
 };
 
 function showList(member) {
