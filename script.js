@@ -3,8 +3,8 @@ const fileList = {
   "HJ": [
     { name: "투영", path: "data/HJ/투영.md" },
   ],
-  "Eunhee": [
-//    { name: "2024-01-생물학", path: "data/Eunhee/2024-01-생물학.md" }
+  "Euni": [
+    { name: "C++ Compiler", path: "data/Euni/C++Compiler.md" }
   ],
   "BJ": [
     { name: "COM", path: "data/BJ/COM.md" },
