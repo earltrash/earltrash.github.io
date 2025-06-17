@@ -8,6 +8,7 @@ const fileList = {
   ],
   "BJ": [
     { name: "COM", path: "data/BJ/COM.md" },
+    { name: "Rasterization Rule", path: "data/BJ/RasterizationRule.md" } 
   ],
 };
 
