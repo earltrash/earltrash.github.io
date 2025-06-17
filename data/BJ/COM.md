@@ -9,15 +9,15 @@ COM (Component Object Model)
 
 1-0. COM
 
-
+```cpp
 class IUnknown {
 public:
     virtual HRESULT QueryInterface(REFIID riid, void** ppvObject) = 0;
     virtual ULONG AddRef() = 0;
     virtual ULONG Release() = 0;
 };
-
-COM 객체는 IUnknown 인터페이스를 참조한다.
+```
+COM 객체는 IUnknown 인터페이스를 상속한다.
 QueryInterface의 매개변수 REFIID(Reference Interface ID)는 말 그대로 인터페이스의 ID, 즉 식별자를 의미하며,
 이 식별자 정보를 바탕으로 해당 인터페이스에 대한 참조가 가능한지를 확인할 수 있다.
 (D2D 예제의 AS 함수도 이와 같은 원리다.)
